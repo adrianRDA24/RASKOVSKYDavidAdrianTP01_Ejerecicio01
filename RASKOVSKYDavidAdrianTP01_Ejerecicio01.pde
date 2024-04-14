@@ -9,7 +9,6 @@ puntoB =new PVector(width - distanciaAlBorde,distanciaAlBorde);//son las coorden
 puntoC =new PVector(distanciaAlBorde,width - distanciaAlBorde);//son las coordenadas del punto de abajo izq.
 puntoD =new PVector(height - distanciaAlBorde , width - distanciaAlBorde);//coordenadas del punto deabajo derecha
 puntoE =new PVector(width/2,height/2); //son las coordenadas del punto del medio
-
 };
 public void draw(){
 dibujarPuntos(); //se llama al procedimiento para qye dibuje todos los puntos de una sola vez
